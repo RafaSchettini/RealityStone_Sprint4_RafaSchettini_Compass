@@ -1,0 +1,8 @@
+# Fornece a fonte de onde será buscado gems para instalação
+source 'https://rubygems.org'
+
+# Instala a gem OS
+gem 'os'
+
+# Para que seja possível ler esse arquivo é necessário instalar a gem bundler rodando "gem install bundler" no console
+# Para rodar o arquivo e instalar as gems em questão é só digitar "bundle" na pasta que se encontra a Gemfile
