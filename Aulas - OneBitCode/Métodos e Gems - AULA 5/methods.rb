@@ -10,7 +10,7 @@ def signal(color = "vermelho")
     puts "O sinal está #{color}"
 end
 
-# Chamando método sem passar o parâmetro
+# Chamando método sem passar um parâmetro
 signal
 
 # Chamando método passando um parâmetro
