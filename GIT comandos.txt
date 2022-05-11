@@ -1,0 +1,38 @@
+# Inicia um novo repositório na máquina local
+git init 
+
+# Adiciona arquivo(s) para um próximo commit
+git add 
+
+# Exibe o status dos arquivos no repositório
+git status
+
+# Cria uma nova commit com o estado atual dos arquivos
+git commit -m
+
+# Exibe últimos commits do repositório
+git log 
+
+# Renomeia branch atual
+git branch -M "novo_nome"
+
+# Cria uma conexão com repositório local com o repositório remoto
+git remote add origin <link.git>
+
+# Envia commits pro repositório remoto para branch em questão
+git push origin <nome_branch>
+
+# Cria uma nova branch
+git checkout -b "novo_nome"
+
+# Alternar entre branchs
+git checkout <nome_branch>
+
+# Junta conteúdos da "<nome_branch>" com conteúdos da branch que você estiver acessando
+git merge <nome_branch>
+
+# Baixa arquivos do repositório em questão para máquina local
+git clone <link.git>
+
+# Busca por alterações no repositório remoto e modifica os arquivos locais com suas respectivas alterações, se existentes
+git pull <link.git>
