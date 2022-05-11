@@ -19,7 +19,7 @@ git branch -M "novo_nome"
 # Cria uma conexão com repositório local com o repositório remoto
 git remote add origin <link.git>
 
-# Envia commits pro repositório remoto para branch em questão
+# Envia commits para o repositório remoto na branch em questão
 git push origin <nome_branch>
 
 # Cria uma nova branch
