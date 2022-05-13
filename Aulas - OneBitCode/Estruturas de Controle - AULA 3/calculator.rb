@@ -2,10 +2,10 @@ system "cls"
 
 loop do
     print "Digite o primeiro número: "
-    num1 = gets.chomp.to_i
+    num1 = gets.chomp.to_f
 
     print "Digite o segundo número: "
-    num2 = gets.chomp.to_i
+    num2 = gets.chomp.to_f
     
     puts "Agora escolha uma das operações abaixo:"
     puts "1 - Adição"
