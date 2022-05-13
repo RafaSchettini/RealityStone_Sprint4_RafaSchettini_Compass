@@ -1,6 +1,7 @@
 system "cls"
 
 loop do
+    puts "Bem-vindo à calculadora! Para começar:"
     print "Digite o primeiro número: "
     num1 = gets.chomp.to_f
 
