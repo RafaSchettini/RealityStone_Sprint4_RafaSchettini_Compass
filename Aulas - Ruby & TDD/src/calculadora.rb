@@ -32,4 +32,12 @@ class Calculadora
         num % num2
     end
 
+    def sqrt_method(num)
+        if (num < 0)
+            return "Não é possível realizar a raiz quadrada de um número negativo!"
+        end
+        
+        Math.sqrt(num).round(1)
+    end
+
 end

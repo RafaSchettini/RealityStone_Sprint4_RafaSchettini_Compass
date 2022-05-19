@@ -163,4 +163,22 @@ describe("Calculadora") do
     it("Não deve checar o resto de uma divisão entre um inteiro negativo e 0") do
         expect(calc.module(-1, 0)).to eq "Não é possível dividir um número por 0!"
     end
+
+    # Testes relacionados à raízes quadradas
+    it("Deve realizar a raiz quadrada exata de um número inteiro positivo") do
+        expect(calc.sqrt_method(64)).to eq 8
+    end
+
+    it("Deve realizar a raiz quadrada não exata de um número inteiro positivo") do
+        expect(calc.sqrt_method(60)).to eq 7.7
+    end
+
+    it("Deve realizar a raiz quadrada exata de 0") do
+        expect(calc.sqrt_method(0)).to eq 0
+    end
+    
+    it("Não deve realizar a raiz quadrada de um número inteiro negativo") do
+        expect(calc.sqrt_method(-2)).to eq "Não é possível realizar a raiz quadrada de um número negativo!"
+    end
+    
 end
