@@ -40,4 +40,19 @@ class Calculadora
         Math.sqrt(num).round(1)
     end
 
+    def factorial(num)
+        if (num < 0)
+            return "Não é possível calcular o fatorial de um número negativo!"
+        end
+        
+        fact = 1
+        i = 1
+        while (i <= num)
+	        fact = fact * i
+	        i += 1
+        end
+
+        return fact
+
+    end
 end

@@ -181,4 +181,17 @@ describe("Calculadora") do
         expect(calc.sqrt_method(-2)).to eq "Não é possível realizar a raiz quadrada de um número negativo!"
     end
     
+    # Testes relacionados à fatoriais
+    it("Deve calcular o fatorial de um número inteiro positivo") do
+        expect(calc.factorial(6)).to eq 720
+    end
+
+    it("Deve calcular o fatorial de 0") do
+        expect(calc.factorial(0)).to eq 1
+    end
+
+    it("Não deve calcular o fatorial de um número negativo") do
+        expect(calc.factorial(-10)).to eq "Não é possível calcular o fatorial de um número negativo!"
+    end
+    
 end
