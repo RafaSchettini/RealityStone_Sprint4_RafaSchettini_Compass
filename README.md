@@ -42,7 +42,7 @@ cd \Aulas - Ruby & TDD\
 ```
 
 # Projeto Calculadora TDD
-> Projeto onde foi desenvolvido uma calculadora com com testes unitários em TDD com as seguintes operações:
+> Projeto onde foi desenvolvido uma calculadora com testes unitários em TDD com as seguintes operações:
 - Adição
 - Subtração
 - Multiplicação
