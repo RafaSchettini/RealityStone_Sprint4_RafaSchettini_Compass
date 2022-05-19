@@ -8,44 +8,55 @@ require_relative '../src/calculadora'
 describe("Calculadora") do
     calc = Calculadora.new
     
-    # Testes relacionados à somas
-    it("Deve somar dois números inteiros positivos | Deve somar dois números reais positivos") do
+    # Testes relacionados à somas com números inteiros
+    it("Deve somar dois números inteiros positivos") do
         expect(calc.sum(1, 2)).to eq 3
-        
-        # Soma de números reais positivos
+    end
+
+    it("Deve somar dois números inteiros negativos") do
+        expect(calc.sum(-1, -2)).to eq -3
+    end
+
+    it("Deve somar um número inteiro positivo com um número inteiro negativo") do
+        expect(calc.sum(1, -2)).to eq -1
+    end
+
+    it("Deve somar um número inteiro positivo com 0") do
+        expect(calc.sum(1, 0)).to eq 1
+    end
+    
+    it("Deve somar um número inteiro negativo com 0") do
+        expect(calc.sum(-1, 0)).to eq -1
+    end
+
+    # Testes relacionados à somas com números reais
+    it("Deve somar dois números reais positivos") do
         expect(calc.sum(1.0, 1.5)).to eq 2.5
     end
 
-    it("Deve somar dois números inteiros negativos | Deve somar dois números reais negativos") do
-        expect(calc.sum(-1, -2)).to eq -3
-
-        expect(calc.sum(-1.0, -2.0)).to eq -3.0
+    it("Deve somar dois números reais negativos") do
+        expect(calc.sum(-1.0, -2.5)).to eq -3.5
     end
 
-    it("Deve somar um número inteiro positivo com um número inteiro negativo | Deve somar um número real positivo com um número real negativo ") do
-        expect(calc.sum(1, -2)).to eq -1
-
-        expect(calc.sum(1.0, -2.0)).to eq -1.0
+    it("Deve somar um número real positivo com um número real negativo") do
+        expect(calc.sum(1.0, -2.5)).to eq -1.5
     end
 
-    it("Deve somar um número inteiro positivo com 0 | Deve somar um número real positivo com 0") do
-        expect(calc.sum(1, 0)).to eq 1
-
-        expect(calc.sum(1.0, 0)).to eq 1.0
+    it("Deve somar um número real positivo com 0") do
+        expect(calc.sum(1.5, 0)).to eq 1.5
     end
     
-    it("Deve somar um número inteiro negativo com 0 | Deve somar um número real negativo com 0") do
-        expect(calc.sum(-1, 0)).to eq -1
-
-        expect(calc.sum(-1.0, 0)).to eq -1.0
+    it("Deve somar um número real negativo com 0") do
+        expect(calc.sum(-1.5, 0)).to eq -1.5
     end
 
-    it("Deve somar um número inteiro com um número real") do
+    # Testes relacionados à somas entre um número inteiro e um número real
+    it("Deve somar um número inteiro positivo com um número real positivo") do
         expect(calc.sum(1, 1.5)).to eq 2.5
-        
-        expect(calc.sum(-1, -1.5)).to eq -2.5
+    end
 
-        expect(calc.sum(1, -1.5)).to eq -0.5
+    it("Deve somar um número inteiro negativo com um número real negativo") do
+        expect(calc.sum(-1, -1.5)).to eq -2.5
     end
 
     # Testes relacionados à subtrações
