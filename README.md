@@ -9,23 +9,25 @@
   </p>
 
 # 💬 Sobre:
-- [Git & GitHub](#git-e-github)
-- [Ruby](#ruby)
-- [TDD w/ Ruby](#tdd-com-ruby)
+- [Git & GitHub](#-git-e-github)
+- [Ruby](#-ruby)
+- [Ruby Koans](#-ruby-koans)
+- [TDD w/ Ruby](#-tdd-com-ruby)
 
 # 💬 Outros Atalhos:
-- [Projeto Calculadora TDD](#projeto-calculadora-tdd)
-- [Executando o Projeto](#executando-o-projeto-calculadora-tdd)
-- [Tecnologias](#tecnologias-e-ferramentas)
-- [Sobre Mim](#sobre-mim)
+- [Projeto Calculadora TDD](#-projeto-calculadora-tdd)
+- [Executando o Projeto](#-executando-o-projeto-calculadora-tdd)
+- [Tecnologias & Ferramentas](#-tecnologias-e-ferramentas)
+- [Sobre Mim](#-sobre-mim)
 
-# Git e GitHub
-> Foram vistos durante a sprint, conceitos básicos sobre Git & GitHub, onde podem ser acessados à partir de:
+# 📝 Git e GitHub
+> Foram vistos durante a sprint, conceitos e comandos essenciais para uso do Git & GitHub, onde podem ser acessados à partir de:
 
+```bash
+# Acessa o diretório em questão
+cd "Aulas - Git & GitHub"
 ```
-cd \Aulas - Git & GitHub\GIT comandos.txt
-```
-# Ruby
+# 💻 Ruby
 > Foram vistos durante a sprint, conceitos básicos e intermediários da linguagem Ruby. Dentre eles:
 - Introdução ao Ruby
 - Conceitos Básicos do Ruby
@@ -34,14 +36,25 @@ cd \Aulas - Git & GitHub\GIT comandos.txt
 - Métodos & Gems
 - Programação Orientada à Objetos
 
-# TDD com Ruby
+# 💻 Ruby Koans
+> Foram realizados os seguintes desafios de testes do projeto <a href="http://rubykoans.com">Ruby Koans</a>:
+- about_methods.rb
+- about_true_and_false.rb
+- about_assertions.rb
+- about_modules.rb
+- about_arrays.rb
+- about_classes.rb
+- about_interation.rb
+
+# 📊 TDD com Ruby
 > Foram vistos durante a sprint, conceitos básicos sobre TDD (Test Driven Development), onde podem ser acessados à partir de:
 
-```
-cd \Aulas - Ruby & TDD\
+```bash
+# Acessa o diretório em questão
+cd "Aulas - Ruby & TDD"
 ```
 
-# Projeto Calculadora TDD
+# 🧮 Projeto Calculadora TDD
 > Projeto onde foi desenvolvido uma calculadora com testes unitários em TDD com as seguintes operações:
 - Adição
 - Subtração
@@ -51,23 +64,24 @@ cd \Aulas - Ruby & TDD\
 - Fatorial
 - Potenciação
 
-# Executando o projeto Calculadora TDD
+# 🚀 Executando o projeto Calculadora TDD
 > Como executar o projeto de maneira correta:
 - Primeiro, certifique-se de ter o Ruby instalado corretamente em seu dispositivo.
 ```bash
-# Para começar, em seu terminal de preferência, instale a Gem bundler com:
+# Para começar, em seu terminal de preferência, instale a gem bundler com:
 gem install bundler
 
 # Entre na pasta do projeto:
-cd \Aulas - Ruby & TDD\
+cd "Aulas - Ruby & TDD"
 
-# Execute:
+# Para instalar as gems do projeto, execute:
 bundle install
 
 # Por fim, para rodar os testes, execute:
 bundle exec rspec \specs\calculadora_spec.rb
 ```
-# Tecnologias e Ferramentas
+
+# 🧰 Tecnologias e Ferramentas
   
   > Linguagens:
   <p>  
@@ -79,7 +93,7 @@ bundle exec rspec \specs\calculadora_spec.rb
   <img  alt="Rafa-VScode" height="35" width="35"  src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/vscode/vscode-original.svg" />
   </p>
   
-# Sobre mim
+# 📌 Sobre mim
 
 
 
