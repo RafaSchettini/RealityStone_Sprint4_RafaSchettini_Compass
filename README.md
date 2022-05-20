@@ -8,13 +8,11 @@
       <img alt="Commits activity" src="https://img.shields.io/github/commit-activity/w/rafaschettini/RealityStone_Sprint4_RafaSchettini_Compass/main"/>
   </p>
 
-# 💬 Sobre:
+# 📚 Sumário
 - [Git & GitHub](#-git-e-github)
 - [Ruby](#-ruby)
 - [Ruby Koans](#-ruby-koans)
 - [TDD w/ Ruby](#-tdd-com-ruby)
-
-# 💬 Outros Atalhos:
 - [Projeto Calculadora TDD](#-projeto-calculadora-tdd)
 - [Executando o Projeto](#-executando-o-projeto-calculadora-tdd)
 - [Tecnologias & Ferramentas](#-tecnologias-e-ferramentas)
