@@ -32,7 +32,7 @@ cd "Aulas - Git & GitHub"
 - Estruturas de Controle
 - Collections
 - Métodos & Gems
-- Programação Orientada à Objetos
+- Programação Orientada a Objetos
 
 ## 💻 Ruby Koans
 > Foram realizados os seguintes desafios de testes do projeto <a href="http://rubykoans.com">Ruby Koans</a>:
@@ -61,6 +61,7 @@ cd "Aulas - Ruby & TDD"
 - Raíz Quadrada
 - Fatorial
 - Potenciação
+- Resto de Divisões
 
 ## 🚀 Executando o projeto Calculadora TDD
 > Como executar o projeto de maneira correta:
