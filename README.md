@@ -8,7 +8,7 @@
       <img alt="Commits activity" src="https://img.shields.io/github/commit-activity/w/rafaschettini/RealityStone_Sprint4_RafaSchettini_Compass/main"/>
   </p>
 
-# 📚 Sumário
+## 📚 Sumário
 - [Git & GitHub](#-git-e-github)
 - [Ruby](#-ruby)
 - [Ruby Koans](#-ruby-koans)
@@ -16,16 +16,16 @@
 - [Projeto Calculadora TDD](#-projeto-calculadora-tdd)
 - [Executando o Projeto](#-executando-o-projeto-calculadora-tdd)
 - [Tecnologias & Ferramentas](#-tecnologias-e-ferramentas)
-- [Sobre Mim](#-sobre-mim)
+- [Desenvolvedor(es)](#-desenvolvedor)
 
-# 📝 Git e GitHub
+## 📝 Git e GitHub
 > Foram vistos durante a sprint, conceitos e comandos essenciais para uso do Git & GitHub, onde podem ser acessados à partir de:
 
 ```bash
 # Acessa o diretório em questão
 cd "Aulas - Git & GitHub"
 ```
-# 💻 Ruby
+## 💻 Ruby
 > Foram vistos durante a sprint, conceitos básicos e intermediários da linguagem Ruby. Dentre eles:
 - Introdução ao Ruby
 - Conceitos Básicos do Ruby
@@ -34,7 +34,7 @@ cd "Aulas - Git & GitHub"
 - Métodos & Gems
 - Programação Orientada à Objetos
 
-# 💻 Ruby Koans
+## 💻 Ruby Koans
 > Foram realizados os seguintes desafios de testes do projeto <a href="http://rubykoans.com">Ruby Koans</a>:
 - about_methods.rb
 - about_true_and_false.rb
@@ -44,7 +44,7 @@ cd "Aulas - Git & GitHub"
 - about_classes.rb
 - about_interation.rb
 
-# 📊 TDD com Ruby
+## 📊 TDD com Ruby
 > Foram vistos durante a sprint, conceitos básicos sobre TDD (Test Driven Development), onde podem ser acessados à partir de:
 
 ```bash
@@ -52,7 +52,7 @@ cd "Aulas - Git & GitHub"
 cd "Aulas - Ruby & TDD"
 ```
 
-# 🧮 Projeto Calculadora TDD
+## 🧮 Projeto Calculadora TDD
 > Projeto onde foi desenvolvido uma calculadora com testes unitários em TDD com as seguintes operações:
 - Adição
 - Subtração
@@ -62,7 +62,7 @@ cd "Aulas - Ruby & TDD"
 - Fatorial
 - Potenciação
 
-# 🚀 Executando o projeto Calculadora TDD
+## 🚀 Executando o projeto Calculadora TDD
 > Como executar o projeto de maneira correta:
 - Primeiro, certifique-se de ter o Ruby instalado corretamente em seu dispositivo.
 ```bash
@@ -79,7 +79,7 @@ bundle install
 bundle exec rspec \specs\calculadora_spec.rb
 ```
 
-# 🧰 Tecnologias e Ferramentas
+## 🧰 Tecnologias e Ferramentas
   
   > Linguagens:
   <p>  
@@ -91,18 +91,17 @@ bundle exec rspec \specs\calculadora_spec.rb
   <img  alt="Rafa-VScode" height="35" width="35"  src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/vscode/vscode-original.svg" />
   </p>
   
-# 📌 Sobre mim
+## 📍 Desenvolvedor
 
+<a href="https://github.com/RafaSchettini"><img width="300" align="left" src="https://media.discordapp.net/attachments/647132376941461504/977023581206765598/My_project_1.png?width=566&height=559"></a>
 
-
-<img width="150" align="left" src="https://media.discordapp.net/attachments/647132376941461504/976960768589312020/RafaSchettini.png?width=512&height=512">
-  
 - People call me Rafa! 🎙️
 - I live in Recife, Brazil 📍
 - I'm a Computer Science (CC) Student 💻
-- Feel free to share your knowledge with me, I'm always open to learn new things ⚡  
+- Feel free to share your knowledge with me, I'm always open to learn new things ⚡
 
-<a align="left" href="https://linkedin.com/in/rafael-schettini/">
-<img alt="Linkedin" align="left" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/linkedin/linkedin-original.svg" width="25">
-</a>
-
+# 💬 You can find me here:
+<p>
+<a href="https://linkedin.com/in/rafael-schettini/"><img  alt="Rafa-LINKEDIN" height="40" width="40" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/linkedin/linkedin-original.svg" /><a/>
+<a href="mailto:rafaschettini902@gmail.com"><img  alt="Rafa-GMAIL" width="40" height="40" src="https://img.icons8.com/fluency/48/000000/gmail.png" /></a>
+</p
